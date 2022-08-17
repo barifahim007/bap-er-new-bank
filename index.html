@@ -22,7 +22,7 @@
                 </div>
                 <div class="bg-yellow-400 w-9/12 p-8 ml-12 rounded-lg text-white font-medium ">
                     <h1 class="text-2xl "> withdraw </h1>
-                    <h4 class="text-5xl"> $<span>00</span></h4>
+                    <h4 class="text-5xl"> $<span id="withdraw-money">00</span></h4>
                 </div>
                 <div class="bg-red-400 w-9/12 p-8 ml-12 rounded-lg text-white font-medium ">
                     <h1 class="text-2xl "> Balance </h1>
@@ -44,9 +44,10 @@
                 </div>
                 <div class="bg-lime-400	 px-8 py-12 rounded-xl ">
                     <h2 class="text-4xl text-white font-medium mb-2"> Your withdraw</h2>
-                    <input class="block mb-2 px-3 py-2 rounded-lg" type="text" name="" id=""
+                    <input class="block mb-2 px-3 py-2 rounded-lg" type="text" name="" id="user-input-value"
                         placeholder="$diposit money">
-                    <button class="bg-red-500 hover:bg-yellow-400 px-6 py-2 rounded-lg text-white font-medium"> withdraw
+                    <button id="btn-withdraw"
+                        class="bg-red-500 hover:bg-yellow-400 px-6 py-2 rounded-lg text-white font-medium"> withdraw
                     </button>
                 </div>
 
@@ -54,6 +55,7 @@
         </section>
     </main>
     <script src="javascript/diposit.js"></script>
+    <script src="javascript/withdraw.js"></script>
 </body>
 
 </html>

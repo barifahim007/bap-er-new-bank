@@ -3,6 +3,7 @@ document.getElementById('btn-diposit').addEventListener('click', function () {
     const dipositAmount = userDipositAmount.value;
     const newDiposit = parseFloat(dipositAmount);
     userDipositAmount.value = '';
+    // second part 
     const userDipositDoller = document.getElementById('diposited-doller');
     const userDoller = userDipositDoller.innerText;
     const userNewDoller = parseFloat(userDoller);
