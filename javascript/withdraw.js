@@ -23,6 +23,14 @@ document.getElementById('btn-withdraw').addEventListener('click', function () {
     const newTotalWithdraw = userStrinValue + newUserWithdraw;
     // step-6 
     myWithDrawMoney.innerText = newTotalWithdraw;
+    // step-7: get the balace value 
+    const previusTotal = document.getElementById('total-balance');
+    const newTotalBalance = previusTotal.innerText;
+    const TOtalBalance = parseFloat(newTotalBalance);
+    // step-8 add balance 
+    const totalwithdrawBalance = TOtalBalance - newTotalWithdraw;
+    previusTotal.innerText = totalwithdrawBalance;
+
 
 
 })
